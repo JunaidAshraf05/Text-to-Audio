@@ -23,6 +23,7 @@
 }
 .Box h1 span{
     color: #ff2963;
+    text-decoration: underline rgb(155, 7, 160);
 }
 textarea{
     width: 600px;
@@ -38,4 +39,49 @@ textarea{
    margin-bottom: 20px;
 
 
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    
+}
+button:hover{
+    background-color:#cf064c;
+    color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    /*  */
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:calc(100% - 20%) ;
 }
